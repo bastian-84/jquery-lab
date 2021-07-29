@@ -1,5 +1,5 @@
 body {
-    //background: #003;
+    background: #003;
     background-image: linear-gradient(to right bottom, #051937, #002762, #00358f, #0041bd, #124beb);
     height: 100vh;
     color: white;
@@ -11,3 +11,43 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+/* #panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  } */
+
+  .b-animate {
+      position: relative;
+      top: 200px;
+  }
+
+  #panel, #flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+  #div1 {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
